@@ -1,3 +1,3 @@
 git init
 git add .
-git commit -m "first component added"
+git commit -m "menu component modified"
