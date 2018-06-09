@@ -2,12 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Dish } from '../shared/dish';
 // Angular Material
 import {MatListModule} from '@angular/material/list';
-
-@Component({
-  selector: 'app-menu',
-  templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.scss']
-})
 const DISHES: Dish[] = [
   {
     name:'Uthappizza',
@@ -39,6 +33,12 @@ const DISHES: Dish[] = [
     description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms'                        }
  
   ];
+@Component({
+  selector: 'app-menu',
+  templateUrl: './menu.component.html',
+  styleUrls: ['./menu.component.scss']
+})
+
   
 export class MenuComponent implements OnInit {
   
