@@ -1,3 +1,3 @@
 git init
 git add .
-git commit -m "Initial Setup"
+git commit -m "first component added"
