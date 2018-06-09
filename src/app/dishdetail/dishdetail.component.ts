@@ -1,5 +1,5 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-
+import { Component, OnInit, ViewEncapsulation, Input } from '@angular/core';
+import { Dish } from '../shared/dish';
 const DISH = {
 	name: 'Uthappizza',
 	image: '/assets/images/uthappizza.png',
@@ -49,10 +49,11 @@ const DISH = {
 })
 export class DishdetailComponent implements OnInit {
 
+	@Input()
+	dish: Dish;
 	constructor() { }
 	
-	dish = DISH;
-
+	
 	ngOnInit() {
 	}
 

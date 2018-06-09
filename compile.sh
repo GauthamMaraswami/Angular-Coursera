@@ -1,3 +1,3 @@
 git init
 git add .
-git commit -m "Assignment1 Completed"
+git commit -m "Data binding"
